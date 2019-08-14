@@ -11,7 +11,7 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner myScanner = new Scanner(System.in);
-        System.out.println("Enter directory path to place Results folder.");
+        System.out.println("Enter directory path to place Results folder");
         String path = myScanner.nextLine();
         System.out.println("Enter amount of Jsons to generate");
         final int numberOfJsons = myScanner.nextInt();
